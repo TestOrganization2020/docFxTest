@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "docFxTest", "docFxTest\docFxTest.csproj", "{8A478E09-B4FE-4893-973C-CBC7B4180AC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{2BEC19EA-AFA6-4A3B-93DE-438D1FB1CA16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A478E09-B4FE-4893-973C-CBC7B4180AC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A478E09-B4FE-4893-973C-CBC7B4180AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A478E09-B4FE-4893-973C-CBC7B4180AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A478E09-B4FE-4893-973C-CBC7B4180AC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90D646C2-FF28-4C81-B3EB-E3D5EBBF8CA5}
+	EndGlobalSection
+EndGlobal
