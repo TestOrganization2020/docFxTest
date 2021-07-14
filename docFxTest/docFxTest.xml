@@ -52,6 +52,54 @@
             Notice the use of the cref attribute to reference a specific method.
             </seealso>
         </member>
+        <member name="T:docFxTest.ClassC">
+            <summary>
+            Class level summary documentation goes here.
+            </summary>
+            <remarks>
+            Longer comments can be associated with a type or member through
+            the remarks tag.
+            </remarks>
+        </member>
+        <member name="F:docFxTest.ClassC._name">
+            <summary>
+            Store for the Name property.
+            </summary>
+        </member>
+        <member name="M:docFxTest.ClassC.#ctor">
+            <summary>
+            The class constructor.
+            </summary>
+        </member>
+        <member name="P:docFxTest.ClassC.Name">
+            <summary>
+            Name property.
+            </summary>
+            <value>
+            A value tag is used to describe the property value.
+            </value>
+        </member>
+        <member name="M:docFxTest.ClassC.SomeMethod(System.String)">
+            <summary>
+            Description for SomeMethod.
+            </summary>
+            <param name="s"> Parameter description for s goes here.</param>
+            <seealso cref="T:System.String">
+            You can use the cref attribute on any tag to reference a type or member
+            and the compiler will check that the reference exists.
+            </seealso>
+        </member>
+        <member name="M:docFxTest.ClassC.SomeOtherMethod">
+            <summary>
+            Some other method.
+            </summary>
+            <returns>
+            Return values are described through the returns tag.
+            </returns>
+            <seealso cref="M:docFxTest.ClassC.SomeMethod(System.String)">
+            Notice the use of the cref attribute to reference a specific method.
+            </seealso>
+        </member>
         <member name="T:docFxTest.TestClass">
             <summary>
             Class level summary documentation goes here.
